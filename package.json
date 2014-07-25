@@ -5,5 +5,19 @@
   "description": "a basic add-on",
   "author": "dbsnurr",
   "license": "MIT",
-  "version": "0.1"
+  "version": "0.1",
+  "preferences": [
+        {
+            "type": "string",
+            "name": "serverURL",
+            "value": "https://cloud.jarvelov.se",
+            "title": "Server URL"
+        },
+        {
+            "type": "string",
+            "name": "serverPath",
+            "value": "/index.php/apps/bookmarks/addBm.php",
+            "title": "Relative path to addBm.php" 
+        }
+	]
 }
